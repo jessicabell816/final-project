@@ -6,3 +6,11 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
+#hero {
+    background-image: url(../images/pexels-kindel-media-6868618.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
