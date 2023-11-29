@@ -1,16 +1,34 @@
 // Custom.scss
 // Option A: Include all of Bootstrap
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+$primary: #391A11;
+$secondary: #FBAF1A;
+$success:#FFCC7C;
+$info: #51221B;
+$light: #E7E7E7;
+$dark: #391A11;
+
 // Include any default variable overrides here (though functions won't be available)
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
 
-#hero {
-    background-image: url(../images/pexels-kindel-media-6868618.jpg);
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
+// #hero {
+//     background-image: url(../images/pexels-kindel-media-6868618.jpg);
+//     background-position: center center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//   }
+  
+  #hero {
+    background-color: $primary;
   }
   
+  
+
+#nav-link {
+    color: $light;
+}
