@@ -10,6 +10,18 @@ $info: #51221B;
 $light: #E7E7E7;
 $dark: #391A11;
 
+$h1-font-size: 3.815rem;
+$h2-font-size: 3.052rem;
+$h3-font-size: 2.441rem;
+$h4-font-size: 1.953rem;
+$h5-font-size: 1.563rem;
+$h6-font-size: 1.25rem;	
+$p-font-size: 1rem;	
+$btn-font-size: 1.25rem;
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+$headings-font-family: 'Poppins', sans-serif;
+
 // Include any default variable overrides here (though functions won't be available)
 
 @import "../node_modules/bootstrap/scss/bootstrap";
@@ -23,12 +35,14 @@ $dark: #391A11;
 //     background-repeat: no-repeat;
 //   }
   
-  #hero {
+#hero {
     background-color: $primary;
-  }
-  
-  
+}
 
 #nav-link {
     color: $light;
+}
+
+h1,h2,a{
+    text-transform: uppercase;
 }
