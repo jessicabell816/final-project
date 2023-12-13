@@ -11865,20 +11865,67 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#hero {
+#hero-home {
   background-color: #391A11;
+  background-image: url(../images/hands-passing-packages-2.jpg);
+  background-position: right center;
+  background-size: 50% 100%;
+  background-repeat: no-repeat;
+}
+
+#hero-shipping {
+  background-color: #391A11;
+  background-image: url(../images/ups-delivery-man-carrying-boxes.jpg);
+  background-position: right center;
+  background-size: 50% auto;
+  background-repeat: no-repeat;
+}
+
+#hero-ps {
+  background-color: #391A11;
+  background-image: url(../images/woman-packging-a-box.jpg);
+  background-position: right bottom -450px;
+  background-size: 50% auto;
+  background-repeat: no-repeat;
 }
 
 #business {
   background-color: #51221B;
+  background-image: url(../images/business-team-1.jpg);
+  background-position: left center;
+  background-size: 50% auto;
+  background-repeat: no-repeat;
+  padding: 4em;
 }
 
 #nav-link {
   color: #E7E7E7;
 }
 
-h1, .h1, h2, .h2, a {
+h1, .h1, h2, .h2, h5, .h5, a {
   text-transform: uppercase;
+}
+
+h1, .h1, h2, .h2 {
+  font-weight: 700;
+}
+
+h5, .h5, a {
+  font-weight: 600;
+}
+
+h6, .h6 {
+  color: #FBAF1A;
+}
+
+.navbar-nav > li {
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.nav-link {
+  color: #E7E7E7;
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=custom.css.map */
