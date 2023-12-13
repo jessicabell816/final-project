@@ -11918,6 +11918,10 @@ h6, .h6 {
   color: #FBAF1A;
 }
 
+a {
+  text-decoration: none;
+}
+
 .navbar-nav > li {
   margin-left: 70px;
   margin-right: 70px;
@@ -11926,6 +11930,40 @@ h6, .h6 {
 .nav-link {
   color: #E7E7E7;
   font-weight: 600;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #FBAF1A;
+}
+
+.btn-card,
+.btn-secondary,
+.btn-success {
+  font-weight: 600;
+}
+
+.btn-card {
+  background-color: #FBAF1A;
+  border-color: #FBAF1A;
+  color: #391A11;
+}
+
+.btn-card:hover,
+.btn-card:focus {
+  background-color: #FBAF1A;
+  border-color: #FBAF1A;
+  color: #391A11;
+  font-weight: 700;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-success:hover,
+.btn-success:focus {
+  background-color: #391A11;
+  border-color: #391A11;
+  color: #FBAF1A;
 }
 
 /*# sourceMappingURL=custom.css.map */

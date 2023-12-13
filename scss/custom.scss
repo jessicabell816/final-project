@@ -28,13 +28,6 @@ $headings-font-family: 'Poppins', sans-serif;
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
-
-// #hero {
-//     background-image: url(../images/pexels-kindel-media-6868618.jpg);
-//     background-position: center center;
-//     background-size: cover;
-//     background-repeat: no-repeat;
-//   }
   
 #hero-home {
     background-color: $primary;
@@ -59,7 +52,6 @@ $headings-font-family: 'Poppins', sans-serif;
     background-size: 50% auto;
     background-repeat: no-repeat;
 }
-
 
 #business {
     background-color: $info;
@@ -91,6 +83,10 @@ h6{
     color: $secondary;
 }
 
+a{
+    text-decoration: none;
+}
+
 .navbar-nav > li{
     margin-left:70px;
     margin-right:70px;
@@ -101,4 +97,36 @@ h6{
     font-weight:600;
 }
 
+.nav-link:hover,
+.nav-link:focus{
+    color: $secondary;
+}
 
+.btn-card, 
+.btn-secondary,
+.btn-success{
+    font-weight:600;
+}
+
+.btn-card{
+    background-color: $secondary;
+    border-color: $secondary;
+    color: $primary;
+}
+
+.btn-card:hover,
+.btn-card:focus{
+    background-color: $secondary;
+    border-color: $secondary;
+    color: $primary;
+    font-weight:700;
+}
+
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-success:hover,
+.btn-success:focus{
+    background-color: $primary;
+    border-color: $primary;
+    color: $secondary;
+}
